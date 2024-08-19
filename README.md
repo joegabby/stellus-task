@@ -4,10 +4,12 @@
     - Have Postgres properly installed 
     - Have an IDE e.g Visual Studio
     - Have a browser e.g Chrome to view the Swagger Documentation OR Postman for testing API endpoints
+    - Have git installed for cloning the repository
 # HOW TO SETUP
-    - Get the source code 
     - Create a postgres database named "stellus_db"
-    - Open the source code of the project in an IDE
+    - Run "git clone https://github.com/joegabby/stellus-task.git" (without the quotes) on a terminal in your project folder to clone the repository
+    - Open the clonned project folder in an IDE
+    - Checkout to "master" branch by running "git checkout master" (without the quotes) in the terminal
     - Create (if it doesn't exist ) and/or adjust the .env file according to the database. Use the       "envExample" file located in the root of the project as a guide
     - Run "pnpm install" command in the terminal (without the quotes) to install dependencies
     - Run "pnpm run migration:run" command in the terminal (without the quotes) to migrate the tables to the database
